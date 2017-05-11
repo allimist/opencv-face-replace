@@ -1,0 +1,30 @@
+{
+  "name": "opencv-face-replace",
+  "version": "1.0.2v",
+  "description": "Javascript class for detect face and replace with anothe face",
+  "main": "face.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allimist/opencv-face-repalce.git"
+  },
+  "keywords": [
+    "opencv",
+    "face-detection",
+    "face-replace"
+  ],
+  "author": "allimist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allimist/opencv-face-repalce/issues"
+  },
+  "homepage": "https://github.com/allimist/opencv-face-repalce#readme",
+  "dependencies": {
+    "opencv":""
+  }
+}
+
+
+
