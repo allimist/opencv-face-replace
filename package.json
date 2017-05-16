@@ -1,6 +1,6 @@
 {
   "name": "opencv-face-replace",
-  "version": "1.0.2v",
+  "version": "1.0.3v",
   "description": "Javascript class for detect face and replace with anothe face",
   "main": "face.js",
   "scripts": {

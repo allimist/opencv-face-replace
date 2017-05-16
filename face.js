@@ -22,7 +22,7 @@ Face.prototype.find = function(place_path,callback) {
       if (faces.length==0) {
 
         console.log('No faces');
-        callback(0,null);
+        callback(1,null);
         return;
 
       }
@@ -70,12 +70,11 @@ Face.prototype.replace = function(place_path,face_path,place,face,result_path,ca
           // var place = faces[0];
           // var face = faces2[0];
 
-          console.log('im: ',im);
-
+          console.log('place ',im);
           console.log(place);
           console.log('Target X(width) from : ',place.x,' to: ',place.x+place.width);
           console.log('Target Y(width) from : ',place.y,' to: ',place.y+place.width);
-          
+          console.log('face: ',im2);
           console.log(face);
           console.log('Source X(width) from : ',face.x,' to: ',face.x+face.height);
           console.log('Source Y(width) from : ',face.y,' to: ',face.y+face.height);
